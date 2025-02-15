@@ -2657,7 +2657,6 @@
                                   </div>
                                 </div>
                               </div>
-
                               <div
                                 class="vc_col-sm-2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "
                                 data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1"
@@ -3178,7 +3177,11 @@
                 margin-bottom: 10px;
               }
             }
-
+            @media (max-width: 459px) { /* Ou ajuste o tamanho conforme necessário */
+                              .hover-wrap-inner {
+                              display: none !important;
+                              }
+                              }
             @media only screen and (max-width: 999px) {
 
               .vc_row-fluid[data-column-margin="10px"] .wpb_column:not([class*="vc_col-xs-"]):not(.child_column):not(:last-child),
